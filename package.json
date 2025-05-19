@@ -1,0 +1,16 @@
+{
+  "name": "@evonai/sdk",
+  "version": "1.0.0",
+  "description": "EvonAI SDK for building on-chain AI agents on Solana",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "EvonAI",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.89.0"
+  }
+}
